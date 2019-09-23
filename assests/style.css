@@ -1,0 +1,31 @@
+.body{
+    /* background-image: url("./images/popcorn.jpg"); */
+    background-color: bisque;
+    
+}
+    
+.jumbotron{
+    background-image: url("./images/seats.gif");
+    font-family: 'Righteous', cursive;
+    background-size: cover;
+    text-align: center;
+    color: beige;
+
+}
+
+h1{
+    letter-spacing: 5px;
+    font-size: 76px !important;
+}
+
+.container{
+    color: black;
+    font-family: 'Noto Sans SC', sans-serif;
+
+
+}
+.buttons{
+    margin: 2.5px;
+
+}
+
