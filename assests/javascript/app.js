@@ -1,6 +1,6 @@
-var movies = ["Juice", "Belly", "Paid In Full", "Love And Basketball", "The Fifth Element", "Clueless", "Coming to America"];
-var movieInput;
-var divMovie;
+var movies = ["Paid In Full", "Love And Basketball", "The Fifth Element", "Clueless", "Coming to America"];
+// var movieInput;
+// var divMovie;
 
 
 console.log(movies);
@@ -74,7 +74,7 @@ $(document).on("click", ".btn", function () {
                     $(".actualGif").attr("state", "animate");
 
                 }
-                else if (state === "animated") {
+                else if (state === "animate") {
                     $(this).attr("src", $(this).attr("data-animate"));
                     $(".actualGif").attr("state", "still");
                 }
